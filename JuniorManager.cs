@@ -23,7 +23,7 @@ namespace _3
             }
             else
             {
-                return Rate + (Rate * YearsWorked);
+                return Rate + (Bonus * YearsWorked);
             }
         }
     }
