@@ -18,7 +18,7 @@ namespace _3
 
         public override decimal GetPrice()
         {
-            return Rate + (Rate * YearsWorked) + Bonus;
+            return Rate + (Bonus * YearsWorked); 
         }
     }
 }
